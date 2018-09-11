@@ -1,5 +1,5 @@
-LED : PB7 ~ PB2
-Button : PB1 ~ PB0
+LED : RB7 ~ RB2
+Button : RB1 ~ RB0
 
 gpio_interrupt/
         new file:   Makefile
