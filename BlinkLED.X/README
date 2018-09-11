@@ -2,7 +2,7 @@ Clock
  - _XTAL_FREQ 1MHz
 
 LED
- - PORTB.0 ~ 7
+ - RB0 ~ RB7
 
 // CONFIG1H
 //#pragma config OSC = RCIO6
