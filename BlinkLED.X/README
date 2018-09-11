@@ -1,0 +1,31 @@
+Clock
+ - _XTAL_FREQ 1MHz
+
+LED
+ - PORTB.0 ~ 7
+
+// CONFIG1H
+//#pragma config OSC = RCIO6
+#pragma config OSC = INTIO67
+
+// CONFIG2H
+#pragma config WDT = OFF
+
+// CONFIG4L
+//#pragma config LVP = ON
+#pragma config LVP = OFF
+
+BlinkLED.X/
+        new file:   BlinkLED.X/Makefile
+        new file:   BlinkLED.X/main.c
+        new file:   BlinkLED.X/nbproject/Makefile-default.mk
+        new file:   BlinkLED.X/nbproject/Makefile-genesis.properties
+        new file:   BlinkLED.X/nbproject/Makefile-impl.mk
+        new file:   BlinkLED.X/nbproject/Makefile-local-default.mk
+        new file:   BlinkLED.X/nbproject/Makefile-variables.mk
+        new file:   BlinkLED.X/nbproject/Package-default.bash
+        new file:   BlinkLED.X/nbproject/configurations.xml
+        new file:   BlinkLED.X/nbproject/private/SuppressibleMessageMemo.properties
+        new file:   BlinkLED.X/nbproject/private/configurations.xml
+        new file:   BlinkLED.X/nbproject/private/private.xml
+        new file:   BlinkLED.X/nbproject/project.xml
