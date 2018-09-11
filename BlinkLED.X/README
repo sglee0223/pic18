@@ -8,8 +8,19 @@ LED
 //#pragma config OSC = RCIO6
 #pragma config OSC = INTIO67
 
+// CONFIG2L
+//#pragma config BOREN = SBORDIS
+#pragma config BOREN = OFF
+
 // CONFIG2H
+//#pragma config WDT = ON
 #pragma config WDT = OFF
+
+// CONFIG3H
+//#pragma config PBADEN = ON
+#pragma config PBADEN = OFF
+//#pragma config MCLRE = ON
+#pragma config MCLRE = OFF  
 
 // CONFIG4L
 //#pragma config LVP = ON
