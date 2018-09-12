@@ -6,6 +6,8 @@ _XTAL_FREQ 4000000
 //#pragma config OSC = INTIO67
 #pragma config OSC = HS
 
+uart_baudrate : 19200
+
 printf/
         new file:   Makefile
         new file:   configuration_bits.h
