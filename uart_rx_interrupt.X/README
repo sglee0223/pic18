@@ -1,0 +1,24 @@
+RC7 : RX
+RC6 : TX
+
+_XTAL_FREQ 4000000
+
+//#pragma config OSC = INTIO67
+#pragma config OSC = HS
+
+uart_rx_interrupt/
+        new file:   uart_rx_interrupt.X/Makefile
+        new file:   uart_rx_interrupt.X/configuration_bits.h
+        new file:   uart_rx_interrupt.X/main.c
+        new file:   uart_rx_interrupt.X/nbproject/Makefile-default.mk
+        new file:   uart_rx_interrupt.X/nbproject/Makefile-genesis.properties
+        new file:   uart_rx_interrupt.X/nbproject/Makefile-impl.mk
+        new file:   uart_rx_interrupt.X/nbproject/Makefile-local-default.mk
+        new file:   uart_rx_interrupt.X/nbproject/Makefile-variables.mk
+        new file:   uart_rx_interrupt.X/nbproject/Package-default.bash
+        new file:   uart_rx_interrupt.X/nbproject/configurations.xml
+        new file:   uart_rx_interrupt.X/nbproject/private/SuppressibleMessageMemo.properties
+        new file:   uart_rx_interrupt.X/nbproject/private/configurations.xml
+        new file:   uart_rx_interrupt.X/nbproject/project.xml
+        new file:   uart_rx_interrupt.X/uart.c
+        new file:   uart_rx_interrupt.X/uart.h
