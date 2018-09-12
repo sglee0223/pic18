@@ -6,6 +6,8 @@ _XTAL_FREQ 4000000
 //#pragma config OSC = INTIO67
 #pragma config OSC = HS
 
+uart_baudrate : 19200
+
 uart_rx_interrupt/
         new file:   uart_rx_interrupt.X/Makefile
         new file:   uart_rx_interrupt.X/configuration_bits.h
