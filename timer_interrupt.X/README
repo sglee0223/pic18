@@ -1,0 +1,23 @@
+Test
+ - 8bit_timer
+ - 16bit_timer
+
+https://www.exploreembedded.com/wiki/PIC18F4520_Timer
+
+RegValue = TimerMax-((Delay * Fosc)/(Prescalar*4))
+delay = ((MaxValue-REG_val)*(Prescal*4))/Fosc
+
+timer_interrupt/
+        new file:   Makefile
+        new file:   main.c
+        new file:   nbproject/Makefile-default.mk
+        new file:   nbproject/Makefile-genesis.properties
+        new file:   nbproject/Makefile-impl.mk
+        new file:   nbproject/Makefile-local-default.mk
+        new file:   nbproject/Makefile-variables.mk
+        new file:   nbproject/Package-default.bash
+        new file:   nbproject/configurations.xml
+        new file:   nbproject/private/SuppressibleMessageMemo.properties
+        new file:   nbproject/private/configurations.xml
+        new file:   nbproject/private/private.xml
+        new file:   nbproject/project.xml
