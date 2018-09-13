@@ -1,0 +1,22 @@
+Timer2 Pwm Mode
+
+_XTAL_FREQ 4000000
+
+//#pragma config OSC = INTIO67
+#pragma config OSC = HS
+
+pwm_buzzer/
+        new file:   Makefile
+        new file:   configuration_bits.h
+        new file:   main.c
+        new file:   nbproject/Makefile-default.mk
+        new file:   nbproject/Makefile-genesis.properties
+        new file:   nbproject/Makefile-impl.mk
+        new file:   nbproject/Makefile-local-default.mk
+        new file:   nbproject/Makefile-variables.mk
+        new file:   nbproject/Package-default.bash
+        new file:   nbproject/configurations.xml
+        new file:   nbproject/private/SuppressibleMessageMemo.properties
+        new file:   nbproject/private/configurations.xml
+        new file:   nbproject/private/private.xml
+        new file:   nbproject/project.xml
