@@ -1,0 +1,22 @@
+spi 
+ - clock : 1MHz
+ - RC3 : CLK
+ - RC4 : SDI
+ - RC5 : SDO
+ - RA5 : CS
+
+_XTAL_FREQ 4000000
+
+//#pragma config OSC = INTIO67
+#pragma config OSC = HS
+
+spi_at45dbxx/
+        new file:   at45dbxx.c
+        new file:   at45dbxx.h
+        new file:   configuration_bits.h
+        new file:   main.c
+        new file:   main.h
+        new file:   myprintf.c
+        new file:   myprintf.h
+        new file:   spi.c
+        new file:   spi.h
