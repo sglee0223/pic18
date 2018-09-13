@@ -1,0 +1,22 @@
+i2c 
+ - 100KHz
+ - RC3 : SCL
+ - RC4 : SDA
+
+_XTAL_FREQ 4000000
+
+//#pragma config OSC = INTIO67
+#pragma config OSC = HS
+
+i2c_pcf8563/
+        new file:   Makefile
+        new file:   configuration_bits.h
+        new file:   i2c.c
+        new file:   i2c.h
+        new file:   main.c
+        new file:   main.h
+        new file:   myprintf.c
+        new file:   myprintf.h
+        new file:   pcf8563.c
+        new file:   pcf8563.h
+        
