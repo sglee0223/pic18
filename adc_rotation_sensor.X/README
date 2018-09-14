@@ -1,0 +1,19 @@
+ADC
+ - Clock : Fosc/4
+ - AN0  : adc port
+ - 10bit value
+
+_XTAL_FREQ 4000000
+
+//#pragma config OSC = INTIO67
+#pragma config OSC = HS
+
+adc_rotation_sensor/
+        new file:   Makefile
+        new file:   adc.c
+        new file:   adc.h
+        new file:   configuration_bits.h
+        new file:   main.c
+        new file:   main.h
+        new file:   myprintf.c
+        new file:   myprintf.h
