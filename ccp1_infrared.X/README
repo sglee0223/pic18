@@ -1,0 +1,19 @@
+RC2
+ - signal
+TIMER1
+ - fosc/4
+CCP1
+ - capture mode
+ - falling edge
+
+_XTAL_FREQ 4000000
+
+//#pragma config OSC = INTIO67
+#pragma config OSC = HS
+
+ccp1_infrared/
+        new file:   configuration_bits.h
+        new file:   main.c
+        new file:   main.h
+        new file:   myprintf.c
+        new file:   myprintf.h
