@@ -1,0 +1,22 @@
+8-bit mode
+
+Register Select, High-Data, Low-Instruction
+ - RC4
+
+High-Read / Low-Write
+ - RC5
+
+Enable Signal
+ - RC6
+
+_XTAL_FREQ 4000000
+
+//#pragma config OSC = INTIO67
+#pragma config OSC = HS
+
+lcd1602/
+        new file:   Makefile
+        new file:   configuration_bits.h
+        new file:   main.c
+        new file:   main.h
+        
