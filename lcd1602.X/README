@@ -9,6 +9,9 @@ High-Read / Low-Write
 Enable Signal
  - RC6
 
+Data Line
+ - RD0 ~ RD7
+
 _XTAL_FREQ 4000000
 
 //#pragma config OSC = INTIO67
