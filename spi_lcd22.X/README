@@ -1,0 +1,29 @@
+spi mode
+ - RC3 : CLK
+ - RC4 : SDI
+ - RC5 : SDO
+ - FOSC/4
+
+lcd conf
+ - RA1 : CS
+ - RA2 : RS
+ - RD0 : Reset
+
+touch conf
+ - RA4 : CS
+
+_XTAL_FREQ 4000000
+
+#pragma config OSC = HS
+
+spi_lcd22/
+        new file:   LCD_BD663474.c
+        new file:   LCD_BD663474.h
+        new file:   LCD_font.c
+        new file:   LCD_font.h
+        new file:   Makefile
+        new file:   TouchPanel_XPT2046.c
+        new file:   TouchPanel_XPT2046.h
+        new file:   configuration_bits.h
+        new file:   main.c
+        new file:   system.h
